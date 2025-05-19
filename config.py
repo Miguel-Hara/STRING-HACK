@@ -10,8 +10,8 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN")
 
     
-    OWNER_ID = "7044783841"
-    MONGO_DB_URI = "mongodb+srv://jarvisdb:started@kishu.x6a4sr7.mongodb.net/?retryWrites=true&w=majority&appName=Kishu"
+    OWNER_ID = "1663603208"
+    MONGO_DB_URI = "mongodb+srv://anmol:anmol@cluster0.fv0q0im.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
     START_PIC = "https://telegra.ph/file/0eba143d65f9413f9ae04.jpg"
-    SUDOERS = filters.user([7044783841])
+    SUDOERS = filters.user([1663603208])
